@@ -1,0 +1,53 @@
+@import url("fonts.css");
+body {
+  background: #f4f4f4;
+}
+
+.grid {
+  margin: auto;
+  max-width: 978px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left ul {
+  margin: 0 0 0 60px;
+  list-style-type: none;
+}
+
+.left ul li {
+  display: inline;
+  margin: 0 10px;
+  padding: 10px 0;
+}
+
+.left ul li a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #8c909d;
+}
+
+.left ul li a:hover {
+  color: #4c72fb;
+}
+
+.left ul li.active {
+  border-bottom: 2px solid #4c72fb;
+}
+
+.left ul li.active a {
+  color: #4c72fb;
+}
+ 
+
+ /*# sourceMappingURL= index.css.map */

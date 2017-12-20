@@ -1,0 +1,19 @@
+@media (min-width: 1400px) { 
+    .grid { 
+        max-width: 1500px; 
+    }
+} 
+
+
+@media (max-width: 1170px) { 
+    .grid { 
+        max-width: 840px; 
+    }
+} 
+
+@media (max-width: 870px) { 
+    .grid { 
+        padding-left: 20px; 
+        padding-right: 20px; 
+    }
+}

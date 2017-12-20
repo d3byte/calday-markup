@@ -1,0 +1,49 @@
+@import url('fonts.css')
+
+$white: #f4f4f4
+$gray: #8c909d
+$blue: #4c72fb
+
+
+body
+    background: $white
+
+.grid
+  margin: auto
+  max-width: 978px
+
+.navbar
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 60px 20px
+
+.left
+  display: flex
+  align-items: center
+  ul
+    margin: 0 0 0 60px
+    list-style-type: none
+    li
+      display: inline
+      margin: 0 10px
+      padding: 10px 0
+      a
+        text-decoration: none
+        transition: 0.3s
+        color: $gray
+        &:hover
+          color: $blue
+    li.active
+      border-bottom: 2px solid $blue
+      a
+        color: $blue 
+      // &:before
+      //   position: absolute
+      //   top: 10px
+      //   left: 0
+      //   content: ''
+      //   width: 10px
+      //   height: 2px
+      //   background: $blue
+      
