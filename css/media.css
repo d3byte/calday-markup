@@ -30,6 +30,36 @@
         width: 25px;
         margin-left: 60px;
     }
+
+    section.main {
+        margin-top: 0;
+    }
+
+    .left-column h1 {
+        font-size: 26px
+    }
+
+    .right-column .calendar .date {
+        font-size: 14px;
+    }
+
+    .right-column .calendar .date h1  {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: row;
+    }
+
+    .right-column {
+        align-items: flex-end;
+    }
+
+    .left-column .row .item:first-of-type {
+        margin-right: 50px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -38,14 +68,106 @@
     }
 }
 
+@media (max-width: 600px) {
+
+     .left-column h1 {
+        font-size: 20px
+    }
+
+    .right-column .calendar .date {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .right-column .calendar .date h1  {
+        font-size: 70px;
+    }
+}
+
 @media (max-width: 568px) {
     .right > img {
         margin-left: 40px;
+    }
+
+    .left-column .row .item:first-of-type {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 486px) {
+    section.main .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-column, .right-column {
+        width: 80%;
+    }
+
+    .left-column {
+        margin-bottom: 20px;
+    }
+
+    .left-column h1 {
+        font-size: 24px
+    }
+
+    .left-column .row .item:first-of-type {
+        margin-right: 0;
+    }
+
+    .left-column .row:first-of-type {
+        justify-content: space-between;
+    }
+
+    .right-column {
+        align-items: center;
+    }
+
+    .right-column .calendar {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 80%;
+    }
+
+    body {
+        padding-bottom: 40px;
     }
 }
 
 @media (max-width: 420px) {
     .right .user {
         display: none;
+    }
+}
+
+@media (max-width: 319px) {
+    .left-column h1 {
+        font-size: 18px;
+    }
+
+    .left-column .row:first-of-type {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left-column .row .item:first-of-type {
+        margin-bottom: 20px;
+    }
+
+    .left-column .row .item:first-of-type .amount {
+        margin-left: 10px;
+    }
+
+    .right-column .calendar .date {
+        font-size: 12px;
+    }
+
+    .right-column .calendar .date h1  {
+        font-size: 50px;
+        margin: 0 0 -30px 0
     }
 }
