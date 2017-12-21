@@ -7,6 +7,9 @@ $blue: #4c72fb
 
 body
     background: $white
+    font-family: 'ProximaNova-Extrabld', sans-serif
+    text-transform: uppercase
+    font-size: 12px
 
 .grid
   margin: auto
@@ -38,12 +41,21 @@ body
       border-bottom: 2px solid $blue
       a
         color: $blue 
-      // &:before
-      //   position: absolute
-      //   top: 10px
-      //   left: 0
-      //   content: ''
-      //   width: 10px
-      //   height: 2px
-      //   background: $blue
-      
+    
+.right
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+  .user
+    display: flex
+    align-items: center
+    justify-content: space-between
+    color: $blue
+    img
+      margin-right: 20px
+
+  > img
+    margin-left: 80px
+    &:hover
+      cursor: pointer

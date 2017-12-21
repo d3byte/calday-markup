@@ -1,6 +1,9 @@
 @import url("fonts.css");
 body {
   background: #f4f4f4;
+  font-family: 'ProximaNova-Extrabld', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 .grid {
@@ -47,6 +50,31 @@ body {
 
 .left ul li.active a {
   color: #4c72fb;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #4c72fb;
+}
+
+.right .user img {
+  margin-right: 20px;
+}
+
+.right > img {
+  margin-left: 80px;
+}
+
+.right > img:hover {
+  cursor: pointer;
 }
  
 
