@@ -54,9 +54,7 @@
         flex-direction: row;
     }
 
-    .right-column {
-        align-items: flex-end;
-    }
+    
 
     .left-column .row .item:first-of-type {
         margin-right: 50px;
