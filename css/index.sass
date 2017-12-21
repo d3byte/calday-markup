@@ -2,7 +2,9 @@
 
 $white: #f4f4f4
 $gray: #8c909d
+$dark-gray: #53555d
 $blue: #4c72fb
+$light-blue: #4e74ff
 
 
 body
@@ -19,7 +21,7 @@ body
   display: flex
   justify-content: space-between
   align-items: center
-  padding: 60px 20px
+  padding: 50px 20px
 
 .left
   display: flex
@@ -44,18 +46,18 @@ body
         color: $blue 
         
     li.messages
-      .amount
-        display: flex
-        justify-content: center
-        align-items: center
-        font-family: 'ProximaNova-Regular', sans-serif
-        font-size: 10px
-        width: 20px
-        height: 20px
-        margin-left: 10px
-        border-radius: 50%
-        background: $blue
-        color: white
+.amount
+  display: flex
+  justify-content: center
+  align-items: center
+  font-family: 'ProximaNova-Regular', sans-serif
+  font-size: 10px
+  width: 20px
+  height: 20px
+  margin-left: 10px
+  border-radius: 50%
+  background: $blue
+  color: white
 
 .right
   display: flex
@@ -74,3 +76,76 @@ body
     margin-left: 80px
     &:hover
       cursor: pointer
+
+
+
+section.main
+  margin-top: 40px
+  .grid
+    display: flex
+    justify-content: space-between
+    padding: 0 20px
+
+.left-column
+  display: flex
+  flex-flow: column nowrap
+  width: 41%
+  min-height: 40vh
+  h1
+    font-family: 'ProximaNova-Black', sans-serif
+    color: $blue
+    font-size: 40px
+  .row
+    align-items: center
+    margin: 20px 0
+    .item
+      display: flex
+      align-items: center
+      color: $dark-gray
+      &:first-of-type
+          margin-right: 100px
+      .circle
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 40px
+        height: 40px
+        margin-right: 10px
+        border-radius: 50%
+        background: $dark-gray
+        img
+          width: 17px
+    &:last-of-type
+      background: $dark-gray
+      border-radius: 5px
+      height: 80px
+      padding: 20px
+      margin-bottom: 0
+
+.right-column
+  display: flex
+  flex-flow: column nowrap
+  width: 41%
+  min-height: 40vh
+  .calendar
+    display: flex
+    flex-flow: column nowrap
+    width: 80%
+    height: 100%
+    background: $dark-gray
+    border-radius: 5px
+    .date
+      display: flex
+      flex-flow: column nowrap
+      align-items: center
+      color: white
+      font-family: 'ProximaNova-Bold', sans-serif
+      font-size: 18px
+      line-height: 6px
+      padding: 30px
+      h1
+        font-family: 'ProximaNova-Bold', sans-serif
+        line-height: 110px
+        font-size: 110px
+        color: $light-blue
+        margin: 0
