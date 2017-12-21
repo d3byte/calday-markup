@@ -24,7 +24,7 @@ body {
 }
 
 .left ul {
-  margin: 0 0 0 60px;
+  margin: 0 0 0 40px;
   list-style-type: none;
 }
 
@@ -118,6 +118,7 @@ section.main .grid {
 .left-column .row {
   align-items: center;
   margin: 20px 0;
+  padding-left: 15px;
 }
 
 .left-column .row .item {
@@ -151,6 +152,13 @@ section.main .grid {
   height: 80px;
   padding: 20px;
   margin-bottom: 0;
+}
+
+.left-column .row .amount {
+  margin-right: -45px;
+  margin-top: -25px;
+  z-index: 100;
+  border: 2px solid #f4f4f4;
 }
 
 .right-column {
