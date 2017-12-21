@@ -28,7 +28,8 @@ body
     margin: 0 0 0 60px
     list-style-type: none
     li
-      display: inline
+      display: inline-flex
+      align-items: center
       margin: 0 10px
       padding: 10px 0
       a
@@ -41,7 +42,21 @@ body
       border-bottom: 2px solid $blue
       a
         color: $blue 
-    
+        
+    li.messages
+      .amount
+        display: flex
+        justify-content: center
+        align-items: center
+        font-family: 'ProximaNova-Regular', sans-serif
+        font-size: 10px
+        width: 20px
+        height: 20px
+        margin-left: 10px
+        border-radius: 50%
+        background: $blue
+        color: white
+
 .right
   display: flex
   align-items: center
