@@ -1,9 +1,20 @@
 @import url("fonts.css");
 body {
+  overflow: visible;
   background: #f4f4f4;
   font-family: 'ProximaNova-Extrabld', sans-serif;
   text-transform: uppercase;
   font-size: 12px;
+}
+
+.blue-corner {
+  position: fixed;
+  bottom: -50%;
+  right: -30%;
+  width: 50%;
+  height: 80vh;
+  background: #4c72fb;
+  transform: rotate(150deg);
 }
 
 .grid {

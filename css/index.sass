@@ -8,10 +8,22 @@ $light-blue: #4e74ff
 
 
 body
-    background: $white
-    font-family: 'ProximaNova-Extrabld', sans-serif
-    text-transform: uppercase
-    font-size: 12px
+  // position: relative
+  // max-width: 100%
+  overflow: visible;
+  background: $white
+  font-family: 'ProximaNova-Extrabld', sans-serif
+  text-transform: uppercase
+  font-size: 12px
+
+.blue-corner
+  position: fixed
+  bottom: -50%
+  right: -30%
+  width: 50%
+  height: 80vh
+  background: $blue
+  transform: rotate(150deg)
 
 .grid
   margin: auto
