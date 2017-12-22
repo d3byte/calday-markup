@@ -176,6 +176,7 @@ section.main .grid {
 .right-column .calendar {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
   width: 80%;
   height: 100%;
   background: #53555d;
@@ -190,7 +191,7 @@ section.main .grid {
   font-family: 'ProximaNova-Bold', sans-serif;
   font-size: 18px;
   line-height: 6px;
-  padding: 30px;
+  padding: 15px;
 }
 
 .right-column .calendar .date h1 {
@@ -199,6 +200,35 @@ section.main .grid {
   font-size: 110px;
   color: #4e74ff;
   margin: 0 0 -5px 0;
+}
+
+.right-column .calendar .table {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.right-column .calendar .table table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.right-column .calendar .table table td {
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 0;
+  border: none;
+  color: #4c72fb;
+}
+
+.right-column .calendar .table table td:hover {
+  cursor: pointer;
+}
+
+.right-column .calendar .table table tr:first-of-type td {
+  padding-top: 0;
 }
  
 

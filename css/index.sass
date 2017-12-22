@@ -151,6 +151,7 @@ section.main
   .calendar
     display: flex
     flex-flow: column nowrap
+    justify-content: center
     width: 80%
     height: 100%
     background: $dark-gray
@@ -163,10 +164,29 @@ section.main
       font-family: 'ProximaNova-Bold', sans-serif
       font-size: 18px
       line-height: 6px
-      padding: 30px
+      padding: 15px
       h1
         font-family: 'ProximaNova-Bold', sans-serif
         line-height: 110px
         font-size: 110px
         color: $light-blue
         margin: 0 0 -5px 0
+    .table 
+      display: flex
+      align-items: center
+      padding: 10px
+      table
+        margin: 0 auto
+        border-collapse: collapse
+        width: 80%
+        td
+          font-family: 'ProximaNova-Bold', sans-serif
+          font-size: 14px
+          text-align: center
+          padding: 5px 0
+          border: none
+          color: $blue
+          &:hover
+            cursor: pointer
+        tr:first-of-type td
+          padding-top: 0
