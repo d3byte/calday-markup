@@ -227,6 +227,12 @@ section.main .grid {
   cursor: pointer;
 }
 
+.right-column .calendar .table table td.active {
+  border-radius: 50%;
+  background: #4c72fb;
+  color: white;
+}
+
 .right-column .calendar .table table tr:first-of-type td {
   padding-top: 0;
 }
