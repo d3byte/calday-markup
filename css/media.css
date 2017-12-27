@@ -60,7 +60,13 @@
         flex-direction: row;
     }
 
-    
+    body .blue-corner {
+        width: 100%;
+        left: 0;
+        transform: rotate(0);
+        background: #4c72fb;
+        z-index: -1;
+    }
 
     .left-column .row .item:first-of-type {
         margin-right: 50px;
