@@ -17,8 +17,17 @@ body .blue-corner {
   height: 20%;
   transform: rotate(150deg);
   background: #4c72fb;
-  z-index: -1;
+  z-index: -2;
   color: white;
+}
+
+body .blue-corner-text {
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  color: white;
+  transform: rotate(330deg);
+  z-index: -1;
 }
 
 .wrapper {

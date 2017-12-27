@@ -65,7 +65,11 @@
         left: 0;
         transform: rotate(0);
         background: #4c72fb;
-        z-index: -1;
+        z-index: 1000;
+    }
+
+    body .blue-corner-text {
+        display: none;
     }
 
     .left-column .row .item:first-of-type {
